@@ -1,5 +1,5 @@
 ﻿
-set H=R:\KSP_1.1.4_dev
+set H=R:\KSP_1.3.0_dev
 echo %H%
 
 
@@ -9,5 +9,3 @@ copy /Y NavBallDockingAlignmentIndicatorCE.version GameData\NavBallDockingAlignm
 cd GameData
 mkdir "%H%\GameData\NavBallDockingAlignmentIndicatorCE"
 xcopy /y /s NavBallDockingAlignmentIndicatorCE "%H%\GameData\NavBallDockingAlignmentIndicatorCE"
-
-pause

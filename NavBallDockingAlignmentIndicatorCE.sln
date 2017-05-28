@@ -7,6 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavBallDockingAlignmentIndi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2030B208-0A11-4F4F-9640-B43A547BFD4D}"
 	ProjectSection(SolutionItems) = preProject
+		buildRelease.bat = buildRelease.bat
+		deploy.bat = deploy.bat
+		license.md = license.md
 		NavBallDockingAlignmentIndicatorCE.version = NavBallDockingAlignmentIndicatorCE.version
 		README.md = README.md
 	EndProjectSection

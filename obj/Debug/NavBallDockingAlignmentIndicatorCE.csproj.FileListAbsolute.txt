@@ -12,6 +12,5 @@ D:\Users\jbb\github\NavBallDockingAlignmentIndicatorCE\bin\Debug\Mono.Cecil.dll
 D:\Users\jbb\github\NavBallDockingAlignmentIndicatorCE\bin\Debug\TDx.TDxInput.dll
 D:\Users\jbb\github\NavBallDockingAlignmentIndicatorCE\bin\Debug\Mono.Security.dll
 D:\Users\jbb\github\NavBallDockingAlignmentIndicatorCE\bin\Debug\UnityEngine.xml
-D:\Users\jbb\github\NavBallDockingAlignmentIndicatorCE\obj\Debug\NavBallDockingAlignmentIndicatorCE.csprojResolveAssemblyReference.cache
 D:\Users\jbb\github\NavBallDockingAlignmentIndicatorCE\obj\Debug\NavBallDockingAlignmentIndicatorCE.dll
 D:\Users\jbb\github\NavBallDockingAlignmentIndicatorCE\obj\Debug\NavBallDockingAlignmentIndicatorCE.pdb
