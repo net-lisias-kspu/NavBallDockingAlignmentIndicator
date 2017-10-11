@@ -1,30 +1,27 @@
-﻿@echo off
+﻿
+@echo off
 
-copy /Y "bin\Release\NavBallDockingAlignmentIndicatorCE.dll" "GameData\NavBallDockingAlignmentIndicatorCE\Plugins"
-copy /Y NavBallDockingAlignmentIndicatorCE.version GameData\NavBallDockingAlignmentIndicatorCE
-copy /Y ..\MiniAVC.dll GameData\NavBallDockingAlignmentIndicatorCE
+rem Set variables here
 
-set DEFHOMEDRIVE=d:
-set DEFHOMEDIR=%DEFHOMEDRIVE%%HOMEPATH%
-set HOMEDIR=
-set HOMEDRIVE=%CD:~0,2%
+set GAMEDIR=NavBallDockingAlignmentIndicatorCE
+set LICENSE=License.md
+set README=ReadMe.md
 
 set RELEASEDIR=d:\Users\jbb\release
 set ZIP="c:\Program Files\7-zip\7z.exe"
-echo Default homedir: %DEFHOMEDIR%
 
-rem set /p HOMEDIR= "Enter Home directory, or <CR> for default: "
+rem Copy files to GameData locations
 
-if "%HOMEDIR%" == "" (
-set HOMEDIR=%DEFHOMEDIR%
-) 
-echo %HOMEDIR%
+copy /Y "%1%2" "GameData\%GAMEDIR%\Plugins"
+copy /Y %GAMEDIR%.version GameData\%GAMEDIR%
+copy /Y ..\MiniAVC.dll GameData\%GAMEDIR%
 
-SET _test=%HOMEDIR:~1,1%
-if "%_test%" == ":" (
-set HOMEDRIVE=%HOMEDIR:~0,2%
-)
+if "%LICENSE%" NEQ "" copy /y  %LICENSE% GameData\%GAMEDIR%
+if "%README%" NEQ "" copy /Y %README% GameData\%GAMEDIR%
 
+rem Get Version info
+
+copy %GAMEDIR%.version a.version
 set VERSIONFILE=a.version
 rem The following requires the JQ program, available here: https://stedolan.github.io/jq/download/
 c:\local\jq-win64  ".VERSION.MAJOR" %VERSIONFILE% >tmpfile
@@ -39,13 +36,17 @@ set /P patch=<tmpfile
 c:\local\jq-win64  ".VERSION.BUILD"  %VERSIONFILE% >tmpfile
 set /P build=<tmpfile
 del tmpfile
+del a.version
 set VERSION=%major%.%minor%.%patch%
 if "%build%" NEQ "0"  set VERSION=%VERSION%.%build%
-del a.version
-echo %VERSION%
 
-copy /y /s license.md GameData\NavBallDockingAlignmentIndicatorCE
+echo Version:  %VERSION%
 
-set FILE="%RELEASEDIR%\NavBallDockingAlignmentIndicatorCE-%VERSION%.zip"
+
+rem Build the zip FILE
+
+set FILE="%RELEASEDIR%\%GAMEDIR%-%VERSION%.zip"
 IF EXIST %FILE% del /F %FILE%
 %ZIP% a -tzip %FILE% GameData
+
+pause

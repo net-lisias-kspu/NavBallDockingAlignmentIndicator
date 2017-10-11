@@ -2,10 +2,8 @@ D:\Users\jbb\github\NavBallDockingAlignmentIndicatorCE\bin\Debug\NavBallDockingA
 D:\Users\jbb\github\NavBallDockingAlignmentIndicatorCE\bin\Debug\NavBallDockingAlignmentIndicatorCE.pdb
 D:\Users\jbb\github\NavBallDockingAlignmentIndicatorCE\bin\Debug\Assembly-CSharp-firstpass.dll
 D:\Users\jbb\github\NavBallDockingAlignmentIndicatorCE\bin\Debug\Assembly-CSharp.dll
-D:\Users\jbb\github\NavBallDockingAlignmentIndicatorCE\bin\Debug\System.dll
 D:\Users\jbb\github\NavBallDockingAlignmentIndicatorCE\bin\Debug\UnityEngine.dll
 D:\Users\jbb\github\NavBallDockingAlignmentIndicatorCE\bin\Debug\UnityEngine.UI.dll
-D:\Users\jbb\github\NavBallDockingAlignmentIndicatorCE\bin\Debug\TrackIRUnity.dll
 D:\Users\jbb\github\NavBallDockingAlignmentIndicatorCE\bin\Debug\System.Xml.dll
 D:\Users\jbb\github\NavBallDockingAlignmentIndicatorCE\bin\Debug\KSPAssets.dll
 D:\Users\jbb\github\NavBallDockingAlignmentIndicatorCE\bin\Debug\Mono.Cecil.dll
@@ -14,3 +12,6 @@ D:\Users\jbb\github\NavBallDockingAlignmentIndicatorCE\bin\Debug\Mono.Security.d
 D:\Users\jbb\github\NavBallDockingAlignmentIndicatorCE\bin\Debug\UnityEngine.xml
 D:\Users\jbb\github\NavBallDockingAlignmentIndicatorCE\obj\Debug\NavBallDockingAlignmentIndicatorCE.dll
 D:\Users\jbb\github\NavBallDockingAlignmentIndicatorCE\obj\Debug\NavBallDockingAlignmentIndicatorCE.pdb
+D:\Users\jbb\github\NavBallDockingAlignmentIndicatorCE\bin\Debug\KSPTrackIR.dll
+D:\Users\jbb\github\NavBallDockingAlignmentIndicatorCE\obj\Debug\NavBallDockingAlignmentIndicatorCE.csprojResolveAssemblyReference.cache
+D:\Users\jbb\github\NavBallDockingAlignmentIndicatorCE\obj\Debug\NavBallDockingAlignmentIndicatorCE.csproj.CoreCompileInputs.cache
