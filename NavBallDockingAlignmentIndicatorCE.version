@@ -1,6 +1,12 @@
 ﻿{
   "NAME": "NavBallDockingAlignmentIndicatorCE",
-  "URL": "http://ksp-avc.cybutek.net/version.php?id=394",
+  "URL": "https://raw.githubusercontent.com/linuxgurugamer/NavBallDockingAlignmentIndicatorCE/master/NavBallDockingAlignmentIndicatorCE.version",
+    "DOWNLOAD" : "https://github.com/linuxgurugamer/NavBallDockingAlignmentIndicatorCE/releases",
+  "GITHUB" :
+  {
+      "USERNAME" : "linuxgurugamer",
+      "REPOSITORY" : "NavBallDockingAlignmentIndicatorCE"
+  },
   "VERSION": {
     "MAJOR": 1,
     "MINOR": 0,
