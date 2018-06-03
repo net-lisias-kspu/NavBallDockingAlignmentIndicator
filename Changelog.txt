@@ -13,3 +13,6 @@
 
 1.0.4.1
 	Updated version file
+
+1.0.4.2
+	Updated version file for all 1.4
