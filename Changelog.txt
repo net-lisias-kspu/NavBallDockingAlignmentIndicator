@@ -16,3 +16,6 @@
 
 1.0.4.2
 	Updated version file for all 1.4
+
+1.0.4.3
+	Version bump for 1.5 rebuild
