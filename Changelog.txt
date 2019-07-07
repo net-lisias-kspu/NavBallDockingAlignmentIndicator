@@ -19,3 +19,7 @@
 
 1.0.4.3
 	Version bump for 1.5 rebuild
+
+1.0.5
+	Version bump for 1.7.2 
+	Updated AssemblyVersion.tt

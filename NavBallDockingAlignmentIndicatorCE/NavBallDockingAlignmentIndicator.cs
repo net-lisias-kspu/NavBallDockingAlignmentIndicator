@@ -38,7 +38,7 @@ public class NavBallDockingAlignmentIndicator : MonoBehaviour
 	
 	void Start()
 	{
-		Debug.Log (" ======== AWAKE  ======== ");
+		//Debug.Log (" ======== AWAKE  ======== ");
 		this.cfg = KSP.IO.PluginConfiguration.CreateForType<NavBallDockingAlignmentIndicator>();
 		this.cfg.load();
 		Vector3 tmp = cfg.GetValue<Vector3>("alignmentmarkercolor", new Vector3(1f, 0f, 0f)); // default: red
