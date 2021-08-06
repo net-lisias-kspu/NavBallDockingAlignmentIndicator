@@ -32,3 +32,8 @@ ChangeLog
 1.1.1
 	Optimized initialization code a bit
 	Added auto resizing of indicator to match navball scale
+
+1.1.1.1
+	Renamed DLL for CKAN compatibility
+	Added AssemblyFileVersion
+	Updated version file for 1.12
