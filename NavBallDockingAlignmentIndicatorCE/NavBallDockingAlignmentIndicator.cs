@@ -47,7 +47,7 @@ public class NavBallDockingAlignmentIndicator : MonoBehaviour
         GameEvents.onUIScaleChange.Add(ResizeIndicator);
     }
 
-    void OnDestory()
+    void OnDestroy()
     {
         GameEvents.onUIScaleChange.Remove(ResizeIndicator);
     }
