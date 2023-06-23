@@ -1,5 +1,7 @@
 # Navball Docking Alignment Indicator /L Unleashed :: Change Log
 
+* 2022-0822: 1.1.1.3 (LinuxGuruGamer) for KSP 1.8
+	+ Fixed minor memory leak
 * 2021-0806: 1.1.1.1 (LinuxGuruGamer) for KSP 1.8
 	+ Renamed DLL for CKAN compatibility
 	+ Added AssemblyFileVersion
