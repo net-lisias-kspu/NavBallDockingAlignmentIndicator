@@ -1,5 +1,7 @@
 # Navball Docking Alignment Indicator /L Unleashed :: Change Log
 
+* 2018-0323: 1.0.4 (LinuxGuruGamer) for KSP 1.4.1
+	+ Updated for 1.4.1
 * 2017-1011: 1.0.3 (LinuxGuruGamer) for KSP 1.3
 	+ No changelog provided
 * 2017-0528: 1.0.2 (LinuxGuruGamer) for KSP 1.3
