@@ -1,5 +1,8 @@
 # Navball Docking Alignment Indicator /L Unleashed :: Change Log
 
+* 2016-0415: 1.0.1 (Patrick Lehmann) for KSP 0.7.3
+	+ You now can change the color via the config.
+	+ By default it is red.
 * 2016-0415: 1.0 (Patrick Lehmann) for KSP 0.7.3
 	+ This adds a "prograde" Marker to indicate the alignment to the Dockingport.
 	+ Will work on adding the Config support ASAP
