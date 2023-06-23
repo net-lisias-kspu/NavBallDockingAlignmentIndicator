@@ -1,5 +1,9 @@
 # Navball Docking Alignment Indicator /L Unleashed :: Change Log
 
+* 2021-0806: 1.1.1.1 (LinuxGuruGamer) for KSP 1.8
+	+ Renamed DLL for CKAN compatibility
+	+ Added AssemblyFileVersion
+	+ Updated version file for 1.12
 * 2020-1205: 1.1.1 (LinuxGuruGamer) for KSP 1.8
 	+ Optimized initialization code a bit
 	+ Added auto resizing of indicator to match navball scale
