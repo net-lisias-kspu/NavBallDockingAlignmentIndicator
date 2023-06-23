@@ -1,5 +1,7 @@
 # Navball Docking Alignment Indicator /L Unleashed :: Change Log
 
+* 2016-0502: 1.0.1a (Patrick Lehmann) for KSP 0.7.3
+	+ Made sure License gets distributed aswell
 * 2016-0415: 1.0.1 (Patrick Lehmann) for KSP 0.7.3
 	+ You now can change the color via the config.
 	+ By default it is red.
