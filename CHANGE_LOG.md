@@ -1,5 +1,8 @@
 # Navball Docking Alignment Indicator /L Unleashed :: Change Log
 
+* 2016-0415: 1.0 (Patrick Lehmann) for KSP 0.7.3
+	+ This adds a "prograde" Marker to indicate the alignment to the Dockingport.
+	+ Will work on adding the Config support ASAP
 * 2015-0524: 7 (Michael Enßlin) for KSP 1.02
 	+ No changelog provided
 * 2014-1219: 6 (Michael Enßlin) for KSP 0.90
