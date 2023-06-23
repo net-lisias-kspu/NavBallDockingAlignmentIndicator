@@ -1,5 +1,7 @@
 # Navball Docking Alignment Indicator /L Unleashed :: Change Log
 
+* 2015-0524: 7 (Michael Enßlin) for KSP 1.02
+	+ No changelog provided
 * 2014-1219: 6 (Michael Enßlin) for KSP 0.90
 	+ re-built for KSP 0.90, changed folder structure.
 * 2014-1017: 5 (Michael Enßlin) for KSP 0.25
